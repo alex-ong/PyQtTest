@@ -12,8 +12,7 @@ TIMER = 0.0
 def update_label():    
     global TIMER
     print (time.time() - TIMER)
-    TIMER = time.time()
-    string = str(int(random.random() * 99)).zfill(2)
+    TIMER = time.time()    
     ui.update()
 
 class Ui_Form(object):
